@@ -1,0 +1,61 @@
+Command Query Seperation / 
+
+
+States: That every method should either be a command 
+			that performs an action, or a query that returns data to 
+			the caller, but not both.
+
+
+void Guardar(Contacto contacto)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Commands - Mutate State
+void Save(Contact contact);
+
+void Send(T message);
+
+void Combine(IFoo foo, Bar Bar);
+
+
+
+
+
+
+
+
+
+// Queries - Does NOT Mutate State
+Order[] GetOrders(int userId);
+
+IFoo Map(Bar bar);
+
+T Create();
+
+
+// Query Implmentation
+// Where is the query?
+// Read Method
+// 1) Change the return to a string (Read)
+// 2) Is this a side effect query?
+//		Yes - because it raises an event.
+
+// Command Implmentation
+// Where is the command?
+// Save Method
+// 1) Change the return to void
+// 2) Remove return
+// 3) Create the GetFileName Method.
+// 		Refactoring Option.

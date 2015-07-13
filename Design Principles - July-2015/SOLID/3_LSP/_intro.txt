@@ -1,0 +1,7 @@
+Liskov Substitution Principle / Principio de sustitución de Liskov
+
+States: "Subtypes must be substitutable for their base types."
+
+		"la noción de que los “objetos de un programa deberían ser 
+			reemplazables por instancias de sus subtipos sin alterar 
+			el correcto funcionamiento del programa”."

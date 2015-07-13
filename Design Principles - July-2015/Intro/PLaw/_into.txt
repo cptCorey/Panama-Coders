@@ -1,0 +1,23 @@
+
+Postels Law
+States: Be conservative in what you do, be liberal in what you accept from others 
+			(often reworded as "Be conservative in what you send, be liberal in what you accept")
+
+
+
+
+
+
+
+
+
+
+
+// WorkingDirectory Can Be Null!
+
+var file = new FileStore();
+file.Save(1,"Hello World"); // Will Throw an error, code is in an invalid state.
+
+// Fail Fast Principle
+
+// Protection from Nullables

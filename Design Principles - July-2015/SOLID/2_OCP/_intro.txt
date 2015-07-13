@@ -1,0 +1,13 @@
+OPEN CLOSED Principle  /  Principio Abierto/Cerrado
+
+States: "Class should be Open for EXTENSIBILITY Closed for Modifications"
+
+		"La noción de que las “entidades de software … 
+			deben estar abiertas para su extensión, 
+			pero cerradas para su modificación”
+
+
+
+You are not allowed to make changes to the class once it's been moved into production.
+
+Only Exception to the rule: Bug Fixing

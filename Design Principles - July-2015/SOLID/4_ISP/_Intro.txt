@@ -1,0 +1,8 @@
+Interface Segregation Principle  /  Principio de Segregación de la Interface
+
+States: "Clients should NOT be forced to DEPEND on methods they do NOT USE."
+		
+		
+		"La noción de que “muchas interfaces cliente específicas son 
+			mejores que una interfaz de propósito general.”
+		

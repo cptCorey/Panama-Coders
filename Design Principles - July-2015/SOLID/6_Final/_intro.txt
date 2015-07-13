@@ -1,0 +1,13 @@
+// Final method call
+var fileStore = new fileStore(
+					new DirectoryInfo(
+						Environment.CurrentDirectory));
+var cache = new StoreCache(fileStore, fileStore);
+var log = new StoreLogger(cache, cache);
+
+var msgStore = new MessageStore(log, log, fileStore);
+
+
+
+
+

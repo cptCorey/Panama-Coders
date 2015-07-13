@@ -1,0 +1,16 @@
+Dependency Inversion Principle   /  Principio de Inversión de Dependencia
+
+
+States: A. High-level modules should not depend on low-level modules. 
+			Both should depend on abstractions.
+		B. Abstractions should not depend upon details. 
+			Details should depend upon abstractions.
+			
+			
+			
+		"La noción de que uno debería “Depender de Abstracciones. No depender de concreciones.”
+			La Inyección de Dependencias es uno de los métodos que siguen este principio."
+			
+			
+			
+			

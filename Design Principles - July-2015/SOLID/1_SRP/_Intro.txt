@@ -1,0 +1,12 @@
+Single Responsibility Principle  /  Principio de Única Responsabilidad
+
+States: "A class should have one and only one reason to change, 
+			meaning that a class should have only one job"
+
+		"la noción de que un objeto solo debería tener una única responsabilidad."
+
+
+
+
+Concern:  "A seperation of concerns"
+	Each class should "Do one thing, and DO IT WELL"
